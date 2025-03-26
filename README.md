@@ -2,16 +2,22 @@
 Media Query
 
 
-/* // for mobile devices */
-
-@media only screen and (min-width: 300px) and (max-width: 519px) {
-
- }
-
-@media only screen and (min-width: 520px) and (max-width: 768px) {
-  
+/* Small devices (Mobile phones, 300px and above) */
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    /* Styles for mobile phones */
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  
+/* Medium devices (Tablets, 600px and above) */
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    /* Styles for tablets */
+}
+
+/* Large devices (Desktops, 900px and above) */
+@media only screen and (min-width: 900px) and (max-width: 1199px) {
+    /* Styles for smaller desktops */
+}
+
+/* Extra Large devices (Larger desktops, 1200px and above) */
+@media only screen and (min-width: 1200px) {
+    /* Styles for large screens or larger desktops */
 }
